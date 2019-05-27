@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{}
+img{
+	max-width: 100%;
+	display: block;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header{
+    padding: 20px 0px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+.socialicon{
+    width: 80%;
+    float: left;
+}
+.socialicon ul{
+    text-align: right;
+}
+.socialicon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.socialicon ul li a{
+    padding: 10px 0px;
+    display: block;
+    margin-right: 5px;
+}
+.socialicon ul li a:hover{}
+
+hr{border: 1px solid #3dcc6f;}
+
+
+nav{
+    margin-top: 20px;
+}
+nav ul{
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #737373;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+nav ul li a:hover{
+    color: #2DCC70;
+}
+
+
+.banner-section{
+    margin: 50px 0 100px;
+    position: relative;
+}
+.banner-section img{}
+.banner-layer{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-layer img{}
+
+.work{
+    text-align: center;
+    /* margin: 20px 0 50px; */
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.work-content{}
+.work-content h1{
+    font-size: 18px;
+    color: #7373739e;
+    margin-bottom: 15px;
+    padding: 0 80px;
+}
+.work-content a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3dcc6f;
+    width: 250px;
+    margin: 0 auto;
+    transition: all 0.4s ease;
+    border-radius: 2px;
+}
+.work-content a:hover{
+    background-color: #737373;
+}
+
+
+.portfolio-section{}
+.portfolio-video{
+    width: 50%;
+    float: left;
+}
+.portfolio-video img{
+    width: 100%;
+    min-height: 100%;
+}
+.portfolio-content{
+    width: 50%;
+    float: left;
+    padding-left: 40px;
+}
+.portfolio-content h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #379458fa;
+    margin-bottom: 20px;
+}
+.portfolio-content p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3dcc6f;
+    margin-bottom: 15px;
+}
+
+
+.about-us{
+    margin-top: 60px;
+    background-color: #332F30;
+    padding: 25px 0;
+}
+.about-us-content{
+    width: 50%;
+    float: left;
+}
+.about-us-content h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    padding: 15px 0px;
+}
+.about-us-button{
+    width: 50%;
+    float: left;
+}
+.about-us-button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3dcc6f;
+    width: 250px;
+    margin: 0 auto;
+    transition: all 0.4s ease;
+    border-radius: 2px;
+}
+.about-us-button a:hover{
+    color: #737373;
+}
+
+
+.footer-section{
+    padding: 30px 0;
+}
+.copyright-content{
+    width: 50%;
+    float: left;
+}
+.copyright-content p{
+    font-size: 14px;
+    color: #3dcc6f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer{
+    width: 50%;
+    float: left;
+}
+footer ul{
+    text-align: right;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+}
+footer ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3dcc6f;
+    display: block;
+    margin-right: 30px;
+}
+footer ul li a:hover{}
+footer ul li a i{
+	transform: rotate(90deg);
+	margin-left: 10px;
+}
